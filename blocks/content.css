@@ -3,6 +3,11 @@
   margin: 0 auto;
 }
 
+.photo {
+  max-width: 984px;
+  margin: 0 auto;
+}
+
 .content__image {
   display: block;
   margin: 0 auto 92px;
