@@ -4,43 +4,11 @@
   margin: 0;
 }
 
-@media screen and (max-width: 1024px) {
-  .intro {
-    max-width: 720px;
-    margin: 0 auto;
-  }
-}
-
-@media screen and (max-width: 544px) {
-  .intro {
-    max-width: 288px;
-  }
-}
-
 .intro__title {
   font-weight: 900;
   font-size: 54px;
   line-height: 1.074;
-  /*max-width: 830px;*/
   margin-bottom: 40px;
-}
-
-@media screen and (max-width: 1024px) {
-  .intro__title {
-    max-width: 707px;
-    margin-bottom: 50px;
-    font-size: 45px;
-    line-height: 1.09;
-  }
-}
-
-@media screen and (max-width: 544px) {
-  .intro__title {
-    font-size: 32px;
-    line-height: 1.09;
-    max-width: 288px;
-    margin-bottom: 40px;
-  }
 }
 
 .intro__quote {
@@ -59,35 +27,10 @@
   margin-bottom: 10px;
 }
 
-@media screen and (max-width: 1024px) {
-  .intro__quote-text {
-    margin-bottom: 0;
-  }
-}
-
-@media screen and (max-width: 544px) {
-  .intro__quote-text {
-    line-height: 1.25;
-    margin-bottom: 10px;
-  }
-}
-
 .intro__quote-author {
   display: block;
   text-align: right;
   font-style: normal;
-}
-
-@media screen and (max-width: 1024px) {
-  .intro__quote-author {
-    line-height: 1;
-  }
-}
-
-@media screen and (max-width: 544px) {
-  .intro__quote-author {
-    line-height: 1.42;
-  }
 }
 
 .intro__text {
@@ -99,12 +42,52 @@
 }
 
 @media screen and (max-width: 1024px) {
+  .intro {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+
+  .intro__title {
+    max-width: 707px;
+    margin-bottom: 50px;
+    font-size: 45px;
+    line-height: 1.09;
+  }
+
+  .intro__quote-text {
+    margin-bottom: 0;
+  }
+
+  .intro__quote-author {
+    line-height: 1;
+  }
+
   .intro__text {
     margin-bottom: 88px;
   }
 }
 
 @media screen and (max-width: 544px) {
+  .intro {
+    max-width: 288px;
+  }
+
+  .intro__title {
+    font-size: 32px;
+    line-height: 1.09;
+    max-width: 288px;
+    margin-bottom: 40px;
+  }
+
+  .intro__quote-text {
+    line-height: 1.25;
+    margin-bottom: 10px;
+  }
+
+  .intro__quote-author {
+    line-height: 1.42;
+  }
+
   .intro__text {
     margin-bottom: 64px;
   }
