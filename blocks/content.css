@@ -1,0 +1,23 @@
+.content {
+  max-width: 984px;
+  margin: 0 auto;
+}
+
+.content__image {
+  display: block;
+  margin: 0 auto 92px;
+  width: 100%;
+  max-width: 984px;
+}
+
+@media screen and (max-width: 1024px) {
+  .content__image {
+    margin: 0 auto 90px;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .content__image {
+    margin-bottom: 64px;
+  }
+}
