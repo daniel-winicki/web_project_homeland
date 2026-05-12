@@ -1,7 +1,7 @@
 .intro {
   width: 100%;
-  max-width: 830px;
-  margin: 0;
+  max-width: 984px;
+  margin: 0 auto 118px;
 }
 
 .intro__title {
@@ -38,13 +38,13 @@
   font-size: 16px;
   line-height: 1.63;
   max-width: 722px;
-  margin: 0 0 92px;
+  margin: 0;
 }
 
 @media screen and (max-width: 1024px) {
   .intro {
     max-width: 720px;
-    margin: 0 auto;
+    margin: 0 auto 64px;
   }
 
   .intro__title {
@@ -61,15 +61,12 @@
   .intro__quote-author {
     line-height: 1;
   }
-
-  .intro__text {
-    margin-bottom: 88px;
-  }
 }
 
 @media screen and (max-width: 544px) {
   .intro {
     max-width: 288px;
+    margin-bottom: 38px;
   }
 
   .intro__title {
@@ -86,9 +83,5 @@
 
   .intro__quote-author {
     line-height: 1.42;
-  }
-
-  .intro__text {
-    margin-bottom: 64px;
   }
 }

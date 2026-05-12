@@ -6,6 +6,8 @@
 .header__logo {
   display: block;
   margin: 0 auto 90px;
+  width: 254px;
+  height: 70px;
 }
 
 .header__title {
@@ -30,7 +32,6 @@
   }
 
   .header__logo {
-    width: 254px;
     height: 66px;
   }
 
@@ -43,6 +44,7 @@
 
   .header__subtitle {
     margin-bottom: 30px;
+    max-width: 720px;
   }
 }
 
