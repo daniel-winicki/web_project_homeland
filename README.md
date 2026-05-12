@@ -4,7 +4,7 @@ Projeto responsivo de página web desenvolvido a partir de um layout no Figma. A
 
 ## Link do projeto
 
-GitHub Pages: https://SEU-USUARIO.github.io/web_project_homeland/
+GitHub Pages: https://daniel-winicki.github.io/web_project_homeland/
 
 > Substitua `SEU-USUARIO` pelo seu usuário real do GitHub antes de enviar o projeto.
 
