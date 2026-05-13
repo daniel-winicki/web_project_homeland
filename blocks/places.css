@@ -13,6 +13,13 @@
   }
 }
 
+@media screen and (max-width: 720px) {
+  .places {
+    max-width: 504px;
+    margin: 0 auto;
+  }
+}
+
 @media screen and (max-width: 544px) {
   .places {
     max-width: 100%;
